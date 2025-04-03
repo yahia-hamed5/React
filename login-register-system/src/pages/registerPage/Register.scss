@@ -1,0 +1,143 @@
+.register-page {
+  width: 400px;
+  height: auto;
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+  border: 1px solid gray;
+  border-radius: 25px;
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 15px;
+    gap: 1rem;
+    h1 {
+      color: #fff;
+      font-size: 30px;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+
+    .input-box1 {
+      display: flex;
+      flex-direction: column;
+      width: 250px;
+      height: auto;
+      gap: 5px;
+      color: #fff;
+      //   background-color: black;
+      .input-icon {
+        background-color: #fff;
+        border-radius: 15px;
+        height: 30px;
+        position: relative;
+        input {
+          padding: 8px;
+          height: 30px;
+          width: 90%;
+          border-radius: 15px;
+        }
+        .icon {
+            color: rgb(84, 16, 96);
+            position: absolute;
+          right: 8px;
+          top: 6px;
+        }
+      }
+    }
+    .input-box2 {
+      width: 250px;
+
+      display: flex;
+      gap: 5px;
+      color: #fff;
+      flex-direction: column;
+      .input-icon {
+        background-color: #fff;
+        border-radius: 15px;
+        height: 30px;
+        position: relative;
+        input {
+          padding: 8px;
+          height: 30px;
+          width: 90%;
+          border-radius: 15px;
+        }
+        .icon {
+          color: rgb(84, 16, 96);
+          position: absolute;
+          right: 8px;
+          top: 6px;
+        }
+      }
+    }
+
+    .input-box3 {
+      width: 250px;
+
+      display: flex;
+      gap: 5px;
+      color: #fff;
+      flex-direction: column;
+      .input-icon {
+        background-color: #fff;
+        border-radius: 15px;
+        height: 30px;
+        position: relative;
+        input {
+          padding: 8px;
+          height: 30px;
+          width: 90%;
+          border-radius: 15px;
+        }
+        .icon {
+            color: rgb(84, 16, 96);
+            position: absolute;
+          right: 8px;
+          top: 6px;
+        }
+      }
+    }
+    .input-box4 {
+      width: 250px;
+
+      display: flex;
+      gap: 5px;
+      color: #fff;
+      flex-direction: column;
+      .input-icon {
+        background-color: #fff;
+        border-radius: 15px;
+        height: 30px;
+        position: relative;
+        input {
+          padding: 8px;
+          height: 30px;
+          width: 90%;
+          border-radius: 15px;
+        }
+        .icon {
+            color: rgb(84, 16, 96);
+            position: absolute;
+          right: 8px;
+          top: 6px;
+        }
+      }
+    }
+
+
+    button{
+        width: 200px;
+        height: 30px;
+        border: none;
+        outline: none;
+        background-color: rgb(203, 13, 203);
+        color: #fff;
+        border-radius: 8px;
+
+    }
+    P{
+        color: #fff;
+    }
+  }
+}
